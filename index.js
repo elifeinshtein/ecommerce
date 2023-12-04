@@ -17,7 +17,7 @@ app.listen(PORT, () => {
 const bcrypt = require('bcryptjs');
  
 const password = 'pass123';
-const hashedPassword;
+const hashedPassword =0;
  
 // Encryption of the string password
 bcrypt.genSalt(10, function (err, Salt) {
